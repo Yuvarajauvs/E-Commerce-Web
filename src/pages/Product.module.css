@@ -1,0 +1,162 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.colLeft,
+.colRight {
+  padding: 0 15px;
+}
+
+.colLeft {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.colRight {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-top: 3rem;
+}
+
+.imgFluid {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.categoryText {
+  text-transform: uppercase;
+  color: #6c757d;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.rating {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #ffc107; /* Bootstrap star color */
+}
+
+.price {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.btnGroup {
+  display: flex;
+  gap: 1rem;
+}
+
+.btnOutline {
+  padding: 0.5rem 1.5rem;
+  border: 1.5px solid #343a40;
+  background: transparent;
+  color: #343a40;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.btnOutline:hover {
+  background-color: #343a40;
+  color: white;
+}
+
+.btnDark {
+  padding: 0.5rem 1.5rem;
+  background-color: #343a40;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.btnDark:hover {
+  background-color: #23272b;
+}
+
+.similarProducts {
+  margin: 3rem 0;
+}
+
+.cardContainer {
+  margin: 0 1rem;
+  width: 250px;
+  text-align: center;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardImage {
+  padding: 1rem;
+  height: 300px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.cardBody {
+  padding: 1rem;
+}
+
+.cardTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.cardBtnGroup {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.dFlex {
+  display: flex;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .colLeft,
+  .colRight {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .imgFluid {
+    width: 100%;
+    height: auto;
+  }
+
+  .dFlex {
+    overflow-x: auto;
+  }
+}

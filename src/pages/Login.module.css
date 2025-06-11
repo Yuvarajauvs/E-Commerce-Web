@@ -1,0 +1,81 @@
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.titleCenter {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.colAuto {
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+.formWrapper {
+  margin: 0 auto;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.inputField {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.link {
+  color: #17a2b8;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #138496;
+}
+
+.buttonContainer {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btnDisabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.my3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,42 @@
+/* Footer.module.css */
+
+.footer {
+  margin-bottom: 0;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.footerContent {
+  max-width: 600px;
+  width: 100%;
+}
+
+.footerText {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.footerLink {
+  text-decoration: underline;
+  color: #000;
+  font-size: 18px;
+}
+
+.githubIcon {
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.githubIcon:hover {
+  color: #444;
+}

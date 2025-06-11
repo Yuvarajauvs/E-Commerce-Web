@@ -1,0 +1,183 @@
+/* Cart.module.css */
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.py3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.my3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+.colMd8 {
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.colMd4 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.colMd12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.bgLight {
+  background-color: #f8f9fa;
+}
+
+.card {
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.cardHeader {
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.cardBody {
+  padding: 1rem 0;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 1px solid #333;
+  background: transparent;
+  color: #333;
+  margin: 0 0.5rem;
+  border-radius: 3px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background: #333;
+  color: white;
+}
+
+.btnDark {
+  background: #333;
+  color: white;
+  border: none;
+}
+
+.btnDark:hover {
+  background: #555;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.justifyBetween {
+  justify-content: space-between;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.mb4 {
+  margin-bottom: 1.5rem;
+}
+
+.my4 {
+  margin: 1.5rem 0;
+}
+
+.p3 {
+  padding: 1rem;
+}
+
+.imgRounded {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.imgSmall {
+  width: 100px;
+  height: 75px;
+  object-fit: contain;
+}
+
+.textMuted {
+  color: #6c757d;
+}
+
+.textStart {
+  text-align: left;
+}
+
+.textMdCenter {
+  text-align: center;
+}
+
+.listGroup {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.listGroupItem {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listGroupItemLast {
+  border-bottom: none;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.btnBlock {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.mx4 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
